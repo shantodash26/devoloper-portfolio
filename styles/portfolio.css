@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: coral;
+}
+.btn-primary{
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0px;
+    padding: 20px 40px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700px;
+}
+.banner-sub-title{
+       font-weight: 600;
+       font-size: 45px;
+}
+.banner-description{
+   color: red; 
+}
